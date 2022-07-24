@@ -268,16 +268,16 @@ export default class ApiRequest extends LitElement {
                 data-example-type="${paramType === 'array' ? paramType : 'string'}"
                 data-example="${example.value && Array.isArray(example.value) ? example.value?.join('~|~') : example.value || ''}"
                 @click="${(e) => {
-                    const inputEl = e.target.closest('table').querySelector(`[data-pname="${paramName}"]`);
-                    if (inputEl) {
-                        if (e.target.dataset.exampleType === 'array') {
-                            inputEl.value = e.target.dataset.example.split('~|~');
-                        } else {
-                            inputEl.value = e.target.dataset.example;
-                        }
-                    }
-                }
-                }"
+    const inputEl = e.target.closest('table').querySelector(`[data-pname="${paramName}"]`);
+    if (inputEl) {
+      if (e.target.dataset.exampleType === 'array') {
+        inputEl.value = e.target.dataset.example.split('~|~');
+      } else {
+        inputEl.value = e.target.dataset.example;
+      }
+    }
+  }
+}"
         >
             ${example.value && Array.isArray(example.value) ? example.value?.join(', ') : example.value || '∅'}
         </a>
