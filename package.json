@@ -1,8 +1,12 @@
 {
   "name": "rapidoc",
-  "version": "9.3.3",
+  "version": "9.3.3-signum",
   "description": "RapiDoc - Open API spec viewer with built in console",
   "author": "Mrinmoy Majumdar <mrin9@yahoo.com>",
+  "contributors": [{
+    "name": "ohager",
+    "url": "https://github.com/ohager"
+  }],
   "homepage": "https://rapidocweb.com",
   "repository": {
     "type": "git",
