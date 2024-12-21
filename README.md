@@ -39,7 +39,7 @@ documentation, rate-limiting and API-key auth in minutes.
 - Works with any framework or with no framework
 - Allows making API calls
 - Better Usability,
-    - all Models and Examples are expanded by default, eliminates the need to click and reveal.
+    - all Models and Examples are expanded by default, eliminating the need to click and reveal.
     - Request fields are pre-populated with sample data
     - Takes only one click to make an API call
     - Request and response can be placed side-by-side for easy comparison
@@ -79,7 +79,7 @@ npm install
 # use it in the script tag of your html <script type="text/javascript" src="rapidoc-min.js"></script></body>
 npm run build 
 
-# for developement use yarn serve (this will start an webserver at port 8080, then navigate to localhost:8080) 
+# for development use yarn serve (this will start a webserver at port 8080, then navigate to localhost:8080) 
 npm run serve
 ```
 
